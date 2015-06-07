@@ -9,7 +9,7 @@ read_data <- function(file, dates){
         return(df[df$Date %in% l_dates, ])
 }
 
-# Accepts data file name and plots Global active power against datetime
+# Accepts data file name and plots Sub metering data against datetime
 # for the dates 2007-02-01, 2007-02-02
 plot3 <- function(file) {
         png(file="plot3.png")
